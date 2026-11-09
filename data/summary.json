@@ -1,17 +1,10 @@
 {
   "model": "claude-haiku-5-5",
-  "bullets": [
-    {
-      "bullet": "ECB President Christine Lagarde is featured in an interview with Yomiuri Shimbun, but the headline gives no details of what she said.",
-      "sources": [
-        1
-      ]
-    }
-  ],
+  "bullets": [],
   "prompt": "You are preparing a pre-open market brief for a trading desk.\nUsing ONLY the headlines below, write 0 to 5 bullets on what matters for today's open.\nDo not add facts, numbers or context that are not in the headlines.\nEach bullet must cite the ids of the headlines it is based on.\n\nOnly use headlines that report market news: central banks, economic data, company\nresults or deals, government policy, geopolitics, or moves in markets themselves.\nIgnore personal finance, retirement advice, lifestyle and general explainers.\nIf nothing is market-relevant, respond with []. Never pad to reach a number of bullets.\n\nState only what the headlines say. Do not speculate about impact: no phrasing such as\n\"may be relevant\" or \"could affect\" unless the headline itself says it.\n\nRespond with JSON only, in this form:\n[{\"bullet\": \"...\", \"sources\": [1, 4]}]\n\nHeadlines:\n[1] (ECB) Christine Lagarde: Interview with Yomiuri Shimbun - \n",
-  "raw_response": "```json\n[{\"bullet\": \"ECB President Christine Lagarde is featured in an interview with Yomiuri Shimbun, but the headline gives no details of what she said.\", \"sources\": [1]}]\n```",
+  "raw_response": "[]",
   "error": null,
-  "run_at": "2026-11-08T11:05:31+00:00",
+  "run_at": "2026-11-09T11:05:32+00:00",
   "headlines": [
     {
       "source": "ECB",
